@@ -1,0 +1,148 @@
+/**OTHER "WORK SECTION" CODE**/
+
+
+<!--<div id="holdwork">
+			<div id="led">
+				Lumin&#201;ire Direct
+			</div>
+		
+			<div id="cda">
+				CoderDo<div style="display:inline; color:#fff;">jo Athlone</div>
+			</div>
+		
+			<div id="sts">
+				Scraping the Sky
+			</div>		
+		</div>
+		<br>
+		<a href=""><div id="button">View More</div></a>
+		
+		</section>
+    </div>-->
+
+
+
+
+
+#holdwork{
+   	height:100%;
+	text-align:center;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	
+}
+
+#led{
+	height:250px;
+	width:250px;
+	background-color:#a1a1a1;
+	float:left;
+	display:inline-block;	
+	margin-left:30px;
+	margin-top:50px;
+	background-image:url('images/led.jpg');
+    background-size: 150% 100%;
+	opacity:0.7;
+	line-height:250px;	
+	font-family:contentfont;
+	color:#fff;
+	font-size:23px;
+	transition:0.3s linear;	
+	
+}
+
+#led:hover{
+	opacity:1;
+	transition:0.3s linear;
+
+}
+
+#cda{
+	height:250px;
+	width:250px;
+	background-color:#a1a1a1;
+	display:inline-block;	
+	margin-top:50px;
+	background-image:url('images/cda.jpeg');
+    background-size: 100% 100%;
+	opacity:0.7;
+	transition:0.3s linear;
+	line-height:250px;
+	font-family:contentfont;
+	color: rgba(0, 0, 0, 0.85);
+	font-size:23px;
+	transition:0.3s linear;		
+	
+}
+
+#cda:hover{
+	opacity:1;
+	transition:0.3s linear;
+	
+}
+
+#sts{
+	height:250px;
+	width:250px;
+	background-color:#a1a1a1;
+	background-image:url('images/sts.jpg');
+	float:right;
+	display:inline-block;	
+	margin-right:30px;
+	margin-top:50px;
+    background-size: 120% 100%;
+	line-height:250px;	
+	opacity:0.7;
+	transition:0.3s linear;
+	font-family:contentfont;
+	color:#fff;
+	font-size:23px;
+	transition:0.3s linear;		
+
+}
+
+#sts:hover{
+	opacity:1;	
+	transition:0.3s linear;
+
+}
+
+
+
+
+
+
+
+
+/*Code for overlay of logo*/
+
+#overlay {
+	position:relative;
+    height:800px;
+	width:1000px;
+	font-size:55px;
+	line-height:40px;
+	font-family:logofont;
+	text-align:center;
+	margin-top:250px;
+	color:#179DA3;
+	background-color:#fff;
+    z-index: 10;
+    transition:0.25s linear;
+	opacity:0;
+	display:inline;
+	text-align:center;
+}
+
+#overlay:hover{
+	opacity:0; 
+	transition:0.25s linear;
+  
+}
+
+#overlay:hover + #logo{
+	opacity:0;
+	transition:0.25s linear;
+	
+}

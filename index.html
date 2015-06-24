@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content='width=500'>
+
+	<title>Home &bull; Jirugi</title>
+	
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+			
+	<!--<link rel="stylesheet" type="text/css" href="style.css" media="none" onload="if(media!='all')media='all'">
+	<noscript>--><link rel="stylesheet" href="style.css"><!--</noscript>-->
+	<link rel="stylesheet" type="text/css" href="normalize.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600' rel='stylesheet' type='text/css'>
+				
+				
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+		
+	<script type="text/javascript">
+						
+	//Smooth scroll effect with anchors:	
+			$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 2000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+		
+			$(document).ready(function(){
+	//Check to see if the window is top if not then display backtotop button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 550) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	    });	
+	});
+	
+	
+	$(document).ready(function(){
+	//Check to see if the window is top if not then display menu button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 550) {
+			$('.menuicon').fadeIn();
+		} else {
+			$('.menuicon').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.menuicon').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	    });	
+	});
+					
+	</script>
+
+	</head>
+	<body>
+		
+	<div id="menu">
+		<a href="#">home</a>
+		<a href="#about">about</a>
+		<a href="#work">work</a>
+		<a href="#contact">contact</a>	
+	</div>
+				
+	<div id="centertext">
+		<div id="logo">JIRUGI.<div style="display:inline; visibility:hidden;">......</div></div><div id="sublogo">web design</div>
+	</div>
+		
+	<div class="homeangle"></div>
+	
+	<div class="menuicon"><img src="" />	 </div>
+	<a href="#" class="scrollToTop"><img src="images/uparrow.png" height="50px" width="50px"/></a>
+
+	<div class="container">	
+		<div class="about">
+		<section>
+			<a name="about"><h1>ABOUT</h1></a>
+			<br>
+			
+			<div id="about_text">
+				<p>At Jirugi (or "punch" in english) we have learned that with great power comes great responsibility. We chanel our power into the sites we develop, hitting as hard as our name suggests.</p>
+				<br><br>
+				<p>Our crack team of Graphic Designers and front end Web Developers cconsistently achieve new heights, putting 110% into every site they create. Choose Jirugi, choose powerful web design. </p>
+			</div>
+				
+			<div id="about_img"></div>
+			
+			
+		</section>
+		</div>
+	</div>
+	
+	<div class="content">
+	</div>
+	
+	<div id="s1" class="scroll">
+		<div id="s1quote">"Punch above your weight."</div>
+	</div>
+		
+	<div class="workcontainer">	
+	<div class="work">
+		<section>
+		<a name="work"><h1>WORK</h1></a>
+		
+		<div class="grid">
+			<figure class="effect-winston">
+  			  <img src="images/led.jpg" alt="LuminEire Direct"/>
+				<figcaption>
+					<h2>Lumin&#201;ire<span> Direct</span></h2>
+					<p><a href="http://www.coderdojoathlone.com/led/index.html">Check it Out</a></p>
+				</figcaption>			
+			</figure>
+					
+			<figure class="effect-winston">
+		  	  <img src="images/cda.jpeg" alt="CoderDojo Athlone"/>
+				<figcaption>
+					<h2>CoderDojo <span>Athlone</span></h2>
+						<p><a href="http://www/athlonecoderdojo.net">Have a look</a></p>
+				</figcaption>			
+			</figure>
+					
+			<figure class="effect-winston">
+	  		  <img src="images/sts.jpg" alt="Scraping the Sky"/>
+				<figcaption>
+					<h2>Scraping the <span>Sky</span></h2>
+						<p><a href="http://www.coderdojoathlone.com/jeremyr/index.html">Take a peek</a></p>
+				</figcaption>			
+			</figure>
+		</div>
+		
+		<a href=""><div id="button">View More</div></a>
+		
+	</div>	
+	</div>
+	
+	<div class="content">
+	</div>
+	
+	<div id="s2" class="scroll">
+		<div id="s2quote">"Classy, mobile responsive web design."</div>
+	</div>	
+		
+	<div class="contact">
+		<section>
+			<a name= "contact"><h1>CONTACT</h1></a>
+			<p>mail.us@jirugi.com</p><br>
+			<p>Site Design and Development - &copy; 2015 - Jirugi Web Design</p><br>
+		 </section>
+	</div>
+		
+	<div id="end">
+		<br><br>
+		<a href="#contact"><img src ="images/Social_Icons/facebook.png" alt="facebook_icon" title="Like us on Facebook"/></a>
+		<a href="#contact"><img src ="images/Social_Icons/twitter.png" alt="twitter_icon" title="Follow us on Twitter"/></a>
+		<a href="#contact"><img src ="images/Social_Icons/g+.png" alt="google+_icon" title="Follow us on Google+"/></a>
+		<a href="#contact"><img src ="images/Social_Icons/linkedin.png" alt="linkedin_icon" title="Connect with us on LinkedIn"/></a>
+	</div>
+		
+	</body>
+	
+</html>
